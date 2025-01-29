@@ -1,0 +1,197 @@
+<div class="container py-3">
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Employee Management</h4>
+      <p style="margin-bottom: 0">
+        <!-- Managing Employee Data with CRUD Operations in the MEAN Stack -->
+        CRUD operations for managing employee data using the
+        <strong> MEAN </strong> stack (MongoDB, Express, Angular, Node.js)
+      </p>
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-md-3">
+      <div style="height: 316px" class="card">
+        <div style="text-align: center" class="card-body">
+          <div
+            (click)="onAddEmployee()"
+            style="
+              text-align: center;
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+              justify-content: center;
+              color: #fff;
+              height: 90px;
+              width: 90px;
+              border: 1px solid #06f;
+              background-color: #06f;
+              border-radius: 100%;
+              margin-top: 60px;
+            "
+          >
+            <i style="font-size: 36px" class="fa fa-plus"></i>
+          </div>
+
+          <h5 class="mt-3">Add Employee</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3" *ngFor="let item of employees; let i = index">
+      <div
+        style="border: none; box-shadow: 0px 0px 24px #ccc"
+        class="card mb-3"
+      >
+        <div class="card-body">
+          <!-- Dynamically display the first letter of the employee's name with dynamic background color -->
+          <div
+            [ngStyle]="{ 'background-color': item.bg }"
+            class="initial-letter"
+          >
+            {{ item.name.charAt(0).toUpperCase() }}
+          </div>
+          <div style="text-align: center">
+            <h5 class="card-title">{{ item.name }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ item.position }}</h6>
+          </div>
+
+          <div class="card-text border-top pt-2 mt-3">
+            <div class="row">
+              <div class="col-md-7">
+                <i class="fa fa-map-marker"></i>
+                {{ item.office }}
+              </div>
+              <div style="text-align: right" class="col-md-5">
+                <span>€</span> {{ item.salary }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center" class="card-footer">
+          <button
+            type="button"
+            class="btn btn-outline-primary mr-2"
+            (click)="onEditEmployee(item)"
+          >
+            <i class="fa fa-pencil-square-o"></i> Edit
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            (click)="onDeleteEmployee(item._id)"
+          >
+            <i class="fa fa-trash-o"></i> Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade show" [class.show]="showModal">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add Employee</h5>
+        <button
+          (click)="onCloseModal()"
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <form [formGroup]="empForm" (ngSubmit)="onEmpSubmit()">
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Enter Name</label>
+            <input type="text" class="form-control" formControlName="name" />
+            <small
+              *ngIf="!empForm.get('name').valid && empForm.get('name').touched"
+              class="form-text text-danger"
+              >Please Enter Name.</small
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="position">Select Position</label>
+            <select
+              id="position"
+              class="form-control"
+              formControlName="position"
+            >
+              <option value="" disabled selected>Select a position</option>
+              <option value="front-end-developer">Front-end Developer</option>
+              <option value="back-end-developer">Back-end Developer</option>
+              <option value="full-stack-developer">Full Stack Developer</option>
+              <option value="qa-tester">QA Tester</option>
+              <option value="project-manager">Project Manager</option>
+              <option value="ux-designer">UX Designer</option>
+              <option value="devops-engineer">DevOps Engineer</option>
+              <!-- Add more options as needed -->
+            </select>
+            <small
+              *ngIf="
+                !empForm.get('position').valid &&
+                empForm.get('position').touched
+              "
+              class="form-text text-danger"
+              >Please select a position.</small
+            >
+          </div>
+
+          <div class="form-group">
+            <label>Enter Office</label>
+            <input type="text" class="form-control" formControlName="office" />
+            <small
+              *ngIf="
+                !empForm.get('office').valid && empForm.get('office').touched
+              "
+              class="form-text text-danger"
+              >Please Enter office.</small
+            >
+          </div>
+
+          <div class="form-group">
+            <label>Enter Salary</label>
+            <input type="text" class="form-control" formControlName="salary" />
+            <small
+              *ngIf="
+                !empForm.get('salary').valid && empForm.get('salary').touched
+              "
+              class="form-text text-danger"
+              >Please Enter salary.</small
+            >
+          </div>
+
+          <div class="form-group">
+            <label>About </label>
+
+            <textarea
+              placeholder="Write brief"
+              class="form-control"
+              formControlName="about"
+            ></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            (click)="onCloseModal()"
+            class="btn btn-secondary"
+            data-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
