@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors({origin: 'http://localhost:4200'}));  // Update CORS as needed
+app.use(cors({origin: 'https://meanstack-frontend.onrender.com'}));  // Update CORS as needed
 
 // Hardcoding the port value directly (Render typically uses 10000, but this can vary)
 const PORT = 10000;  // Explicitly setting to 10000 for deployment on Render
