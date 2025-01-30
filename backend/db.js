@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb+srv://dashrath:<Shivam@123>@cluster0.qur6s.mongodb.net/meanDB?retryWrites=true&w=majority&appName=Cluster0' || 'mongodb://localhost:27017/meanDB';
+const mongoURI = 'mongodb+srv://dashrath:Shivam@123@cluster0.qur6s.mongodb.net/meanDB?retryWrites=true&w=majority&appName=Cluster0' || 'mongodb://localhost:27017/meanDB';
 
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
