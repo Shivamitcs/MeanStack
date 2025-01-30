@@ -427,7 +427,7 @@ __webpack_require__.r(__webpack_exports__);
 class EmployeeService {
     constructor(http) {
         this.http = http;
-        this.baseURL = 'http://localhost:3000/employees';
+        this.baseURL = 'https://meanstack-39h8.onrender.com/employees';
     }
     postEmployee(emp) {
         return this.http.post(this.baseURL, emp);
@@ -447,7 +447,7 @@ EmployeeService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EmployeeService, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
         args: [{
-                providedIn: 'root'
+                providedIn: 'root',
             }]
     }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }]; }, null); })();
 
