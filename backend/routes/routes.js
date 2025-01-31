@@ -38,6 +38,7 @@ router.get('/:id', (req, res)=> {
 // Post Api
 router.post('/', (req, res)=> {
     let emp = new Employee({
+ image:req.body.image,
         name : req.body.name,
         position: req.body.position,
         dept: req.body.dept,
@@ -61,6 +62,7 @@ router.put('/:id', (req, res)=> {
     if(ObjectId.isValid(req.params.id)){
 
         let emp = {
+ image:req.body.image,
             name : req.body.name,
             position: req.body.position,
             dept: req.body.dept,
