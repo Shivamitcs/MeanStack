@@ -530,7 +530,7 @@ class EmployeeComponent {
     }
 }
 EmployeeComponent.ɵfac = function EmployeeComponent_Factory(t) { return new (t || EmployeeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_employee_service__WEBPACK_IMPORTED_MODULE_3__["EmployeeService"])); };
-EmployeeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EmployeeComponent, selectors: [["app-employee"]], decls: 92, vars: 19, consts: [[1, "container", "py-3"], [1, "row"], [1, "col-md-12"], [2, "margin-bottom", "0"], [1, "row", "mt-3", "mb-3"], [1, "col-md-6"], [2, "position", "relative"], ["style", "\n                position: absolute;\n                right: 10px;\n                color: brown;\n                top: 8px;\n                font-size: 20px;\n                cursor: pointer;\n              ", "class", "fa fa-times-circle", 3, "click", 4, "ngIf"], ["type", "text", "placeholder", "Search by name", 1, "form-control", 3, "ngModel", "ngModelChange", "input"], [1, "form-control", 3, "ngModel", "ngModelChange", "change"], ["value", ""], [3, "value", 4, "ngFor", "ngForOf"], [2, "text-align", "right"], ["role", "group", "aria-label", "Basic example", 1, "btn-group", "m-d-none"], ["type", "button", 1, "btn", 2, "width", "auto", 3, "ngClass", "click"], [1, "fa", "fa-th"], [1, "fa", "fa-list"], ["class", "row ml-0", 4, "ngIf"], ["class", "row", 4, "ngIf"], ["style", "text-align: center", "class", "card p-5", 4, "ngIf"], ["class", "row mt-3", 4, "ngIf"], [1, "modal", "fade", "show"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close", 3, "click"], ["aria-hidden", "true"], [3, "formGroup", "ngSubmit"], [1, "modal-body"], [1, "img-panel"], ["type", "file", "id", "fileInput", "accept", "image/*", 3, "change"], ["type", "button", 1, "btn", "btn-primary", 2, "position", "absolute", "height", "30px", "width", "30px", "bottom", "-5px", "margin-left", "88px", "padding", "0", 3, "click"], [1, "fa", "fa-pencil-square-o"], ["id", "imagePreview", 1, "image-preview"], ["id", "previewImg", "src", "https://selvamtech.edu.in/wp-content/uploads/2014/05/no-user-image.gif", "alt", "Preview", 4, "ngIf"], ["id", "previewImg", "alt", "Preview", 3, "src", 4, "ngIf"], [1, "form-group"], ["type", "text", "formControlName", "name", 1, "form-control"], ["class", "form-text text-danger", 4, "ngIf"], ["for", "position"], ["id", "position", "formControlName", "position", 1, "form-control"], ["value", "", "disabled", "", "selected", ""], ["value", "front-end-developer"], ["value", "back-end-developer"], ["value", "full-stack-developer"], ["value", "qa-tester"], ["value", "project-manager"], ["value", "ux-designer"], ["value", "devops-engineer"], ["type", "text", "formControlName", "office", 1, "form-control"], ["type", "text", "formControlName", "salary", 1, "form-control"], [1, "modal-footer"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-secondary", 3, "click"], ["type", "submit", 1, "btn", "btn-primary"], [1, "fa", "fa-times-circle", 2, "position", "absolute", "right", "10px", "color", "brown", "top", "8px", "font-size", "20px", "cursor", "pointer", 3, "click"], [3, "value"], [1, "row", "ml-0"], ["class", "col-md-6", 4, "ngFor", "ngForOf"], [1, "list-item", "custom-list-item"], ["class", "col-md-3", 3, "ngStyle", 4, "ngIf"], ["class", "col-md-3 pl-0 pr-0", 4, "ngIf"], [1, "col-md-9"], [1, "item-details"], [1, "item-name"], [1, "badge", "badge-success", 2, "padding", "7px", "background-color", "rgb(85, 163, 98)"], [1, "row", "mt-2"], [1, "fa", "fa-map-marker"], [1, "item-description", "mt-2"], ["type", "button", 1, "btn", "btn-outline-primary", "mr-2", 3, "click"], ["type", "button", 1, "btn", "btn-outline-danger", 3, "click"], [1, "fa", "fa-trash-o"], [1, "col-md-3", 3, "ngStyle"], [1, "initial-letter-list"], [1, "col-md-3", "pl-0", "pr-0"], [2, "overflow", "hidden"], ["alt", "", 2, "object-fit", "cover", "width", "100%", "height", "163px", 3, "src"], [1, "col-md-3"], [1, "card", "text-center", "shadow-sm"], [1, "card-body"], [1, "rounded-circle", "d-inline-block", "bg-danger", "text-white", "fs-3", "fw-bold", "p-3", "skeleton-loader", 2, "width", "60px", "height", "60px", "line-height", "60px"], [1, "mt-3", "skeleton-loader", 2, "height", "20px", "width", "80%"], [1, "text-muted", "skeleton-loader", 2, "height", "15px", "width", "50%"], [1, "skeleton-loader", 2, "height", "15px", "width", "100%"], [1, "d-flex", "justify-content-around", "mt-3"], [1, "btn", "btn-danger", "btn-sm", "skeleton-loader", 2, "width", "60px", "height", "30px"], [1, "card", "p-5", 2, "text-align", "center"], ["src", "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/error-no-search-results_2353c5.png", "alt", ""], [1, "row", "mt-3"], ["class", "col-md-3", 4, "ngIf"], ["class", "col-md-3", 4, "ngFor", "ngForOf"], [1, "card", 2, "height", "316px"], [1, "card-body", 2, "text-align", "center"], [2, "text-align", "center", "margin", "0 auto", "display", "flex", "align-items", "center", "cursor", "pointer", "justify-content", "center", "color", "#fff", "height", "90px", "width", "90px", "border", "1px solid #06f", "background-color", "#06f", "border-radius", "100%", "margin-top", "60px", 3, "click"], [1, "fa", "fa-plus", 2, "font-size", "36px"], [1, "mt-3"], [1, "card", "mb-3", 2, "border", "none", "box-shadow", "0px 0px 24px #ccc"], ["class", "initial-letter", 3, "ngStyle", 4, "ngIf"], ["class", "initial-letter", 4, "ngIf"], [2, "text-align", "center"], [1, "card-title"], [1, "card-subtitle", "mb-2", "text-muted"], [1, "card-text", "border-top", "pt-2", "mt-3"], [1, "col-md-7"], [1, "col-md-5", 2, "text-align", "right"], [1, "card-footer", 2, "text-align", "center"], [1, "initial-letter", 3, "ngStyle"], [1, "initial-letter"], ["alt", "", 2, "object-fit", "cover", "height", "90px", "width", "90px", 3, "src"], ["id", "previewImg", "src", "https://selvamtech.edu.in/wp-content/uploads/2014/05/no-user-image.gif", "alt", "Preview"], ["id", "previewImg", "alt", "Preview", 3, "src"], [1, "form-text", "text-danger"]], template: function EmployeeComponent_Template(rf, ctx) { if (rf & 1) {
+EmployeeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EmployeeComponent, selectors: [["app-employee"]], decls: 92, vars: 19, consts: [[1, "container", "py-3"], [1, "row"], [1, "col-md-12"], [2, "margin-bottom", "0"], [1, "row", "mt-3", "mb-3"], [1, "col-md-6"], [2, "position", "relative"], ["style", "\n                position: absolute;\n                right: 10px;\n                color: brown;\n                top: 8px;\n                font-size: 20px;\n                cursor: pointer;\n              ", "class", "fa fa-times-circle", 3, "click", 4, "ngIf"], ["type", "text", "placeholder", "Search by name", 1, "form-control", 3, "ngModel", "ngModelChange", "input"], [1, "form-control", 3, "ngModel", "ngModelChange", "change"], ["value", ""], [3, "value", 4, "ngFor", "ngForOf"], [2, "text-align", "right"], ["role", "group", "aria-label", "Basic example", 1, "btn-group", "m-d-none"], ["type", "button", 1, "btn", 2, "width", "auto", 3, "ngClass", "click"], [1, "fa", "fa-th"], [1, "fa", "fa-list"], ["class", "row ml-0", 4, "ngIf"], ["class", "row", 4, "ngIf"], ["style", "text-align: center", "class", "card p-5", 4, "ngIf"], ["class", "row mt-3", 4, "ngIf"], [1, "modal", "fade", "show"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close", 3, "click"], ["aria-hidden", "true"], [3, "formGroup", "ngSubmit"], [1, "modal-body"], [1, "img-panel"], ["type", "file", "id", "fileInput", "accept", "image/*", 3, "change"], ["type", "button", 1, "btn", "btn-primary", 2, "position", "absolute", "height", "30px", "width", "30px", "bottom", "-5px", "margin-left", "88px", "padding", "0", 3, "click"], [1, "fa", "fa-pencil-square-o"], ["id", "imagePreview", 1, "image-preview"], ["id", "previewImg", "src", "https://selvamtech.edu.in/wp-content/uploads/2014/05/no-user-image.gif", "alt", "Preview", 4, "ngIf"], ["id", "previewImg", "alt", "Preview", 3, "src", 4, "ngIf"], [1, "form-group"], ["type", "text", "formControlName", "name", 1, "form-control"], ["class", "form-text text-danger", 4, "ngIf"], ["for", "position"], ["id", "position", "formControlName", "position", 1, "form-control"], ["value", "", "disabled", "", "selected", ""], ["value", "front-end-developer"], ["value", "back-end-developer"], ["value", "full-stack-developer"], ["value", "qa-tester"], ["value", "project-manager"], ["value", "ux-designer"], ["value", "devops-engineer"], ["type", "text", "formControlName", "office", 1, "form-control"], ["type", "text", "formControlName", "salary", 1, "form-control"], [1, "modal-footer"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-secondary", 3, "click"], ["type", "submit", 1, "btn", "btn-primary"], [1, "fa", "fa-times-circle", 2, "position", "absolute", "right", "10px", "color", "brown", "top", "8px", "font-size", "20px", "cursor", "pointer", 3, "click"], [3, "value"], [1, "row", "ml-0"], ["class", "col-md-6", 4, "ngFor", "ngForOf"], [1, "list-item", "custom-list-item"], ["class", "col-md-3", 3, "ngStyle", 4, "ngIf"], ["class", "col-md-3 pr-0", 4, "ngIf"], [1, "col-md-9", "pl-0"], [1, "item-details"], [1, "item-name"], [1, "badge", "badge-success", 2, "padding", "7px", "background-color", "rgb(85, 163, 98)"], [1, "row", "mt-2"], [1, "fa", "fa-map-marker"], [1, "item-description", "mt-2"], ["type", "button", 1, "btn", "btn-outline-primary", "mr-2", 3, "click"], ["type", "button", 1, "btn", "btn-outline-danger", 3, "click"], [1, "fa", "fa-trash-o"], [1, "col-md-3", 3, "ngStyle"], [1, "initial-letter-list"], [1, "col-md-3", "pr-0"], [2, "overflow", "hidden"], ["alt", "", 2, "object-fit", "cover", "width", "100%", "height", "163px", 3, "src"], [1, "col-md-3"], [1, "card", "text-center", "shadow-sm"], [1, "card-body"], [1, "rounded-circle", "d-inline-block", "bg-danger", "text-white", "fs-3", "fw-bold", "p-3", "skeleton-loader", 2, "width", "60px", "height", "60px", "line-height", "60px"], [1, "mt-3", "skeleton-loader", 2, "height", "20px", "width", "80%"], [1, "text-muted", "skeleton-loader", 2, "height", "15px", "width", "50%"], [1, "skeleton-loader", 2, "height", "15px", "width", "100%"], [1, "d-flex", "justify-content-around", "mt-3"], [1, "btn", "btn-danger", "btn-sm", "skeleton-loader", 2, "width", "60px", "height", "30px"], [1, "card", "p-5", 2, "text-align", "center"], ["src", "https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/error-no-search-results_2353c5.png", "alt", ""], [1, "row", "mt-3"], ["class", "col-md-3", 4, "ngIf"], ["class", "col-md-3", 4, "ngFor", "ngForOf"], [1, "card", 2, "height", "316px"], [1, "card-body", 2, "text-align", "center"], [2, "text-align", "center", "margin", "0 auto", "display", "flex", "align-items", "center", "cursor", "pointer", "justify-content", "center", "color", "#fff", "height", "90px", "width", "90px", "border", "1px solid #06f", "background-color", "#06f", "border-radius", "100%", "margin-top", "60px", 3, "click"], [1, "fa", "fa-plus", 2, "font-size", "36px"], [1, "mt-3"], [1, "card", "mb-3", 2, "border", "none", "box-shadow", "0px 0px 24px #ccc"], ["class", "initial-letter", 3, "ngStyle", 4, "ngIf"], ["class", "initial-letter", 4, "ngIf"], [2, "text-align", "center"], [1, "card-title"], [1, "card-subtitle", "mb-2", "text-muted"], [1, "card-text", "border-top", "pt-2", "mt-3"], [1, "col-md-7"], [1, "col-md-5", 2, "text-align", "right"], [1, "card-footer", 2, "text-align", "center"], [1, "initial-letter", 3, "ngStyle"], [1, "initial-letter"], ["alt", "", 2, "object-fit", "cover", "height", "90px", "width", "90px", 3, "src"], ["id", "previewImg", "src", "https://selvamtech.edu.in/wp-content/uploads/2014/05/no-user-image.gif", "alt", "Preview"], ["id", "previewImg", "alt", "Preview", 3, "src"], [1, "form-text", "text-danger"]], template: function EmployeeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -809,6 +809,49 @@ EmployeeService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
 
 /***/ }),
 
+/***/ "LSdv":
+/*!*****************************************!*\
+  !*** ./src/app/shared/theme.service.ts ***!
+  \*****************************************/
+/*! exports provided: ThemeService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemeService", function() { return ThemeService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+
+class ThemeService {
+    constructor() {
+        this.themeKey = 'app-theme'; // Key for localStorage
+        this.loadTheme();
+    }
+    setTheme(isDarkMode) {
+        const theme = isDarkMode ? 'dark' : 'light';
+        localStorage.setItem(this.themeKey, theme);
+        document.body.classList.toggle('dark-mode', isDarkMode);
+    }
+    loadTheme() {
+        const savedTheme = localStorage.getItem(this.themeKey) || 'light';
+        document.body.classList.toggle('dark-mode', savedTheme === 'dark');
+    }
+    isDarkMode() {
+        return localStorage.getItem(this.themeKey) === 'dark';
+    }
+}
+ThemeService.ɵfac = function ThemeService_Factory(t) { return new (t || ThemeService)(); };
+ThemeService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: ThemeService, factory: ThemeService.ɵfac, providedIn: 'root' });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ThemeService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{
+                providedIn: 'root',
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
 /***/ "Sy1n":
 /*!**********************************!*\
   !*** ./src/app/app.component.ts ***!
@@ -820,46 +863,72 @@ EmployeeService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _employee_employee_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./employee/employee.component */ "66QQ");
+/* harmony import */ var _shared_theme_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/theme.service */ "LSdv");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _employee_employee_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./employee/employee.component */ "66QQ");
 
 
 
+
+
+function AppComponent_i_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "i", 10);
+} }
+function AppComponent_i_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "i", 11);
+} }
 class AppComponent {
-    constructor() {
+    constructor(themeService) {
+        this.themeService = themeService;
         this.title = 'frontend';
+        this.isDarkMode = this.themeService.isDarkMode();
+    }
+    toggleTheme() {
+        this.isDarkMode = !this.isDarkMode;
+        this.themeService.setTheme(this.isDarkMode);
     }
 }
-AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 12, vars: 0, consts: [[1, "navbar", "navbar-light", "bg-light"], [1, "container"], [1, "navbar-brand"], [2, "min-height", "calc(100vh - 112px)"], [1, "bg-dark", "text-white", "text-center", "py-3"], [1, "mb-0"], ["target", "_blank", "href", "https://shivamitcs.in/", 2, "color", "antiquewhite", "font-weight", "500"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_theme_service__WEBPACK_IMPORTED_MODULE_1__["ThemeService"])); };
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 15, vars: 2, consts: [[1, "navbar", "navbar-light", "bg-light"], [1, "container"], [1, "navbar-brand"], [2, "font-size", "24px", "cursor", "pointer", 3, "click"], ["title", "Click to Switch Light Mode", "class", "bx bxs-sun", 4, "ngIf"], ["title", "Click to Switch Dark Mode", "class", "bx bxs-moon", 4, "ngIf"], [2, "min-height", "calc(100vh - 112px)"], [1, "bg-dark", "text-white", "text-center", "py-3"], [1, "mb-0"], ["target", "_blank", "href", "https://shivamitcs.in/", 2, "color", "antiquewhite", "font-weight", "500"], ["title", "Click to Switch Light Mode", 1, "bx", "bxs-sun"], ["title", "Click to Switch Dark Mode", 1, "bx", "bxs-moon"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " SHIVAM - Mean App Demo");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "app-employee");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "footer", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " \u00A9 2025 All rights reserved by ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "SHIVAM ITCS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_div_click_4_listener() { return ctx.toggleTheme(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, AppComponent_i_5_Template, 1, 0, "i", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, AppComponent_i_6_Template, 1, 0, "i", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "app-employee");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_employee_employee_component__WEBPACK_IMPORTED_MODULE_1__["EmployeeComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "footer", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " \u00A9 2025 All rights reserved by ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "SHIVAM ITCS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isDarkMode);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isDarkMode);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _employee_employee_component__WEBPACK_IMPORTED_MODULE_3__["EmployeeComponent"]], styles: ["body.dark-mode {\n  background-color: #121212 !important;\n  color: #888;\n}\n  body.dark-mode .custom-list-item {\n  border: none !important;\n}\n  body.dark-mode .modal-content {\n  background-color: #292929 !important;\n  color: #fff !important;\n}\n  body.dark-mode .modal-content .close {\n  color: #fff !important;\n}\n  body.dark-mode .modal-header {\n  border: none !important;\n}\n  body.dark-mode .modal-footer {\n  border: none !important;\n}\n  body.dark-mode .item-details {\n  background-color: #292929 !important;\n  height: 100%;\n  color: #888;\n}\n  body.dark-mode .item-details .item-name {\n  color: #888 !important;\n}\n  body.dark-mode .card {\n  background-color: #292929 !important;\n  color: #888;\n  box-shadow: none !important;\n}\n  body.dark-mode .card .border-top {\n  border-color: #333 !important;\n}\n  body.dark-mode .card-footer .btn {\n  background-color: #3d3d3d !important;\n  color: #fff !important;\n  border: transparent !important;\n}\n  body.dark-mode .item-description .btn {\n  background-color: #3d3d3d !important;\n  color: #fff !important;\n  border: transparent !important;\n}\n  body.dark-mode .form-control {\n  background-color: #292929 !important;\n  color: #888;\n  border-color: #333;\n}\n  body.dark-mode .navbar.navbar-light {\n  background-color: #292929 !important;\n  color: #fff;\n}\nbutton[_ngcontent-%COMP%] {\n  padding: 10px;\n  margin: 10px;\n  border: none;\n  cursor: pointer;\n}\nbody.dark-mode[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  background-color: white;\n  color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usb0NBQUE7RUFDQSxXQUFBO0FBQ0Y7QUFBRTtFQUNFLHVCQUFBO0FBRUo7QUFBRTtFQUNFLG9DQUFBO0VBQ0Esc0JBQUE7QUFFSjtBQURJO0VBQ0Usc0JBQUE7QUFHTjtBQUFFO0VBQ0UsdUJBQUE7QUFFSjtBQUNFO0VBQ0UsdUJBQUE7QUFDSjtBQUNFO0VBQ0Usb0NBQUE7RUFDQSxZQUFBO0VBQ0EsV0FBQTtBQUNKO0FBQUk7RUFDRSxzQkFBQTtBQUVOO0FBQ0U7RUFDRSxvQ0FBQTtFQUNBLFdBQUE7RUFDQSwyQkFBQTtBQUNKO0FBQUk7RUFDRSw2QkFBQTtBQUVOO0FBQ0U7RUFDRSxvQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsOEJBQUE7QUFDSjtBQUVFO0VBQ0Usb0NBQUE7RUFDQSxzQkFBQTtFQUNBLDhCQUFBO0FBQUo7QUFHRTtFQUNFLG9DQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0FBREo7QUFHRTtFQUNFLG9DQUFBO0VBQ0EsV0FBQTtBQURKO0FBS0E7RUFDRSxhQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBRkY7QUFLQTtFQUNFLHVCQUFBO0VBQ0EsWUFBQTtBQUZGIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOjpuZy1kZWVwIGJvZHkuZGFyay1tb2RlIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTIxMjEyICFpbXBvcnRhbnQ7XHJcbiAgY29sb3I6ICM4ODg7XHJcbiAgLmN1c3RvbS1saXN0LWl0ZW0ge1xyXG4gICAgYm9yZGVyOiBub25lICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG4gIC5tb2RhbC1jb250ZW50IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMyOTI5MjkgIWltcG9ydGFudDtcclxuICAgIGNvbG9yOiAjZmZmICFpbXBvcnRhbnQ7XHJcbiAgICAuY2xvc2Uge1xyXG4gICAgICBjb2xvcjogI2ZmZiAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gIH1cclxuICAubW9kYWwtaGVhZGVyIHtcclxuICAgIGJvcmRlcjogbm9uZSAhaW1wb3J0YW50O1xyXG4gIH1cclxuXHJcbiAgLm1vZGFsLWZvb3RlciB7XHJcbiAgICBib3JkZXI6IG5vbmUgIWltcG9ydGFudDtcclxuICB9XHJcbiAgLml0ZW0tZGV0YWlscyB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjkyOTI5ICFpbXBvcnRhbnQ7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICBjb2xvcjogIzg4ODtcclxuICAgIC5pdGVtLW5hbWUge1xyXG4gICAgICBjb2xvcjogIzg4OCAhaW1wb3J0YW50O1xyXG4gICAgfVxyXG4gIH1cclxuICAuY2FyZCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjkyOTI5ICFpbXBvcnRhbnQ7XHJcbiAgICBjb2xvcjogIzg4ODtcclxuICAgIGJveC1zaGFkb3c6IG5vbmUgIWltcG9ydGFudDtcclxuICAgIC5ib3JkZXItdG9wIHtcclxuICAgICAgYm9yZGVyLWNvbG9yOiAjMzMzICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgfVxyXG4gIC5jYXJkLWZvb3RlciAuYnRuIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMzZDNkM2QgIWltcG9ydGFudDtcclxuICAgIGNvbG9yOiAjZmZmICFpbXBvcnRhbnQ7XHJcbiAgICBib3JkZXI6IHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICAuaXRlbS1kZXNjcmlwdGlvbiAuYnRuIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMzZDNkM2QgIWltcG9ydGFudDtcclxuICAgIGNvbG9yOiAjZmZmICFpbXBvcnRhbnQ7XHJcbiAgICBib3JkZXI6IHRyYW5zcGFyZW50ICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICAuZm9ybS1jb250cm9sIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMyOTI5MjkgIWltcG9ydGFudDtcclxuICAgIGNvbG9yOiAjODg4O1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjMzMzO1xyXG4gIH1cclxuICAubmF2YmFyLm5hdmJhci1saWdodCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjkyOTI5ICFpbXBvcnRhbnQ7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICB9XHJcbn1cclxuXHJcbmJ1dHRvbiB7XHJcbiAgcGFkZGluZzogMTBweDtcclxuICBtYXJnaW46IDEwcHg7XHJcbiAgYm9yZGVyOiBub25lO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuYm9keS5kYXJrLW1vZGUgYnV0dG9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICBjb2xvcjogYmxhY2s7XHJcbn1cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
                 selector: 'app-root',
                 templateUrl: './app.component.html',
-                styleUrls: ['./app.component.scss']
+                styleUrls: ['./app.component.scss'],
             }]
-    }], null, null); })();
+    }], function () { return [{ type: _shared_theme_service__WEBPACK_IMPORTED_MODULE_1__["ThemeService"] }]; }, null); })();
 
 
 /***/ }),
